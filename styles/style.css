@@ -28,8 +28,36 @@ nav .collapse ul li a span {
 }
 
 .jumbotron {
-  height: 100vh;
+  height: 120vh;
   margin-top: -20vh;
-  padding-top: 22rem;
+  padding-top: 12rem;
   background-color: #f2fafa;
+}
+
+.jumbotron .container .left h1 {
+  font-size: 47px;
+  line-height: 70px;
+}
+
+.jumbotron .container .left p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  opacity: 0.6;
+}
+
+.jumbotron .container .left button {
+  font-weight: 600;
+}
+
+.jumbotron .container .left form input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #9d9d9d;
+}
+
+.jumbotron .container .left form input {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
