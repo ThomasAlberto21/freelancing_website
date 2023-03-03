@@ -7,8 +7,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-nav .container {
-  border-radius: 50px;
+/* navbar */
+nav {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 nav .collapse button {
@@ -19,18 +20,15 @@ nav .collapse button {
   border-radius: 50px;
 }
 
-nav .collapse ul li a {
-  color: black;
-}
-
 nav .collapse ul li a span {
   color: #1e88e5;
 }
 
+/* jumbotron */
+
 .jumbotron {
-  height: 120vh;
-  margin-top: -20vh;
-  padding-top: 12rem;
+  height: 100vh;
+  padding-top: 1rem;
   background-color: #f2fafa;
 }
 
@@ -46,8 +44,9 @@ nav .collapse ul li a span {
   opacity: 0.6;
 }
 
-.jumbotron .container .left button {
-  font-weight: 600;
+.jumbotron .container .left form input {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 .jumbotron .container .left form input::placeholder {
@@ -55,9 +54,4 @@ nav .collapse ul li a span {
   font-size: 16px;
   line-height: 30px;
   color: #9d9d9d;
-}
-
-.jumbotron .container .left form input {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
 }
