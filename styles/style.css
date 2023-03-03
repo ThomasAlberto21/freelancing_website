@@ -10,6 +10,7 @@
 /* navbar */
 nav {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
 nav .collapse button {
@@ -20,16 +21,20 @@ nav .collapse button {
   border-radius: 50px;
 }
 
+nav .collapse ul li a:hover {
+  color: #1e88e5;
+}
+
 nav .collapse ul li a span {
   color: #1e88e5;
 }
 
 /* jumbotron */
-
 .jumbotron {
-  height: 100vh;
-  padding-top: 1rem;
-  background-color: #f2fafa;
+  padding: 180px 0 165px;
+  margin-top: -10rem;
+  background-image: url('../images/background_header.png');
+  background-size: cover;
 }
 
 .jumbotron .container .left h1 {
@@ -62,4 +67,26 @@ nav .collapse ul li a span {
   font-size: 16px;
   line-height: 30px;
   color: #9d9d9d;
+}
+
+/* step */
+.step .container {
+  gap: 10px;
+  margin-top: -5rem;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.step .container .content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.step .container .content p {
+  font-size: 20px;
+  opacity: 0.6;
+  margin-top: 5px;
 }
