@@ -144,7 +144,7 @@ nav .collapse ul li a span {
 .works .container .content .posted {
   padding: 20px;
   gap: 30px;
-  width: 372px;
+  width: 340px;
   height: 460px;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
 }
@@ -171,6 +171,16 @@ nav .collapse ul li a span {
   opacity: 0.7;
 }
 
+/* Category */
+.category .container .header h2 {
+  font-size: 50px;
+}
+
+.category .container .content .card_category .title h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
 /* Responsive */
 @media (max-width: 767px) {
   .about .container .content h2 {
@@ -184,6 +194,10 @@ nav .collapse ul li a span {
 
   .works .container .header .left h2 {
     font-size: 36px;
+  }
+
+  .works .container .content .posted {
+    height: 500px;
   }
 }
 
@@ -206,9 +220,5 @@ nav .collapse ul li a span {
 
   .works .container .header .left h2 {
     font-size: 36px;
-  }
-
-  .works .container .content{
-    grid-row: auto;
   }
 }
