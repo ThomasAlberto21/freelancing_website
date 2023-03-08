@@ -173,7 +173,7 @@ nav .collapse ul li a span {
 
 /* Category */
 .category .container .header h2 {
-  font-size: 50px;
+  font-size: 46px;
 }
 
 .category .container .content .card_category .title h2 {
@@ -198,6 +198,10 @@ nav .collapse ul li a span {
 
   .works .container .content .posted {
     height: 500px;
+  }
+
+  .category .container .header h2 {
+    font-size: 26px;
   }
 }
 
