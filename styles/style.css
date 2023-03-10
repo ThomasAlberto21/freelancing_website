@@ -146,6 +146,58 @@ nav .collapse ul li a span {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Subscription */
+.subscription {
+  background-color: #f2fafa;
+  padding: 120px 0;
+  background-size: cover;
+}
+
+.subscription .container .content h1 {
+  font-size: 56px;
+}
+
+.subscription .container .content p {
+  font-size: 24px;
+  color: #9d9d9d;
+}
+
+.subscription .container .content form input {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 50%;
+}
+
+/* Footer */
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.footer .social-media a {
+  text-decoration: none;
+}
+
+.footer .nav-footer p {
+  font-weight: 600 !important;
+  font-size: 20px;
+  line-height: 135%;
+  color: black;
+}
+
+.footer .nav-footer a {
+  font-weight: 400 !important;
+  font-size: 16px;
+  line-height: 13px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer li {
+  margin-bottom: 6px;
+}
+
 /* Responsive */
 @media (max-width: 767px) {
   .about .container .content h2 {
@@ -168,6 +220,18 @@ nav .collapse ul li a span {
   .category .container .header h2 {
     font-size: 26px;
   }
+
+  .subscription .container .content form input {
+    width: 75%;
+  }
+
+  .subscription .container .content h1 {
+    font-size: 26px;
+  }
+
+  .subscription .container .content p {
+    font-size: 15px;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -189,5 +253,17 @@ nav .collapse ul li a span {
 
   .works .container .header .left h2 {
     font-size: 36px;
+  }
+
+  .subscription .container .content h1 {
+    font-size: 46px;
+  }
+
+  .subscription .container .content p {
+    font-size: 20px;
+  }
+
+  .subscription .container .content form input {
+    width: 75%;
   }
 }
